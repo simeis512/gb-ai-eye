@@ -1,0 +1,41 @@
+.pio/
+.vscode/
+.codex-remote-attachments/
+include/secrets.h
+
+# Users must supply their own cartridge dump, save data, and emulator.
+rom/
+bgbw64/
+analysis/runs/
+*.gb
+*.gbc
+*.sav
+*.sna
+*.sn?
+
+# Local credentials and build/debug artifacts.
+.env
+.env.*
+!.env.example
+*.elf
+*.map
+*.log
+
+# Keep reverse-engineering history local; publish the current reproducible path.
+/analysis/*
+!/analysis/oak-photo-link-byte-list.csv
+!/analysis/oak-photo-link-input.md
+!/analysis/oak-photo-link-patches.json
+!/analysis/oak-photo-link-program-guide.md
+!/analysis/oak-photo-link.md
+
+/payloads/*
+!/payloads/oak-photo-link.asm
+
+/tools/*
+!/tools/build-oak-photo-payload.cjs
+!/tools/Probe-XiaoCapture.py
+!/tools/Test-SupportedRom.ps1
+
+# Internal release planning stays in the working directory.
+/docs/publication-plan.md

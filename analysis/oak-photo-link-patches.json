@@ -1,0 +1,32 @@
+[
+  {
+    "address": "DA00",
+    "hex": "21 EB D2 3E 80 22 36 DA C9",
+    "purpose": "installer"
+  },
+  {
+    "address": "DA80",
+    "hex": "0C 4B 9B 4B AC 4B BD 4B A0 DA",
+    "purpose": "pointer-table"
+  },
+  {
+    "address": "DAA0",
+    "hex": "08 3E 01 EA EA D0 CD 1E 31 CD AB 0E CD F5 3D 01 B9 C4 21 B6 DA C9 00 B5 B5 E7 7F BC E0 BC DE DD 4F D0 BE C3 7F B8 DA D9 C9 B6 E6 51 CC D1 CC D1 7F C5 D9 CE 34 75 50 08 C3 00 DB",
+    "purpose": "opening-text"
+  },
+  {
+    "address": "DB00",
+    "hex": "3E 43 CD 65 DB 38 5A FE 15 28 56 FE FF 28 52 11 10 0E CD 96 DB AF CD 65 DB 38 46 FE 15 28 42 FE FF 28 3E FE 17 28 35 FE 06 28 31 4F E6 C0 FE 80 20 2F 79 E6 3F 28 2A FE 40 30 26 4F 21 65 DC AF 57 AF CD 65 DB 38 1A 22 AA 57 0D 20 F4 AF CD 65 DB 38 0E BA 20 0B 36 57 21 50 DC C9 1B 7A B3 20 B1 21 20 DC C9 F3 E0 01 3E 81 E0 02 06 FF F0 02 CB 7F 28 10 05 20 F7 3E 01 E0 02 F0 0F CB 9F E0 0F 37 FB C9 F0 01 F5 F0 0F CB 9F E0 0F 06 20 05 20 FD F1 A7 FB C9 C5 01 00 18 0B 78 B1 20 FB C1 C9",
+    "purpose": "serial-code"
+  },
+  {
+    "address": "DC20",
+    "hex": "00 51 D1 D1 E6 7F BC E0 BC DE 26 4F B3 CF B8 7F D0 B4 DE D6 B3 2C E0 75 57",
+    "purpose": "failure-text"
+  },
+  {
+    "address": "DC50",
+    "hex": "00 51 B3 D1 E7 7F BA DA CA 4F B2 B2 7F BC E0 BC DE 2C E0 E7 51",
+    "purpose": "result-prefix"
+  }
+]
