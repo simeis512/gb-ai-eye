@@ -1,5 +1,19 @@
 # 公開用ハードウェアガイド
 
+## 実機試作
+
+次の写真は、通信とAI講評表示まで動作確認した実機試作である。カメラが前を向くようにXIAO ESP32S3 Senseを配置し、レベルシフタ、1セルLiPo、電源スイッチを背面へまとめている。
+
+![GB AI Eye本体の正面](assets/gb-ai-eye-unit-front.jpg)
+
+![LiPo、電源スイッチ、配線を含む側面](assets/gb-ai-eye-unit-wiring.jpg)
+
+![基板と配線をまとめた背面](assets/gb-ai-eye-unit-back.jpg)
+
+この状態は機能確認用の試作であり、露出した基板、LiPo、はんだ面をテープで仮固定している。持ち運びや長期使用を想定する場合は、レンズを塞がないケース、ケーブルの引張対策、基板裏面の絶縁、LiPoを圧迫しない固定方法を追加する。
+
+清書用の端子対応、図面配置、配色、注記は[Fritzing配線図の作図仕様](fritzing-wiring-spec.md)にまとめている。
+
 ## 構成
 
 Game BoyのリンクポートとXIAO ESP32S3 Senseはロジック電圧が異なるため、3本の通信信号をレベル変換する。XIAO本体はGame Boyと別電源で動かし、GNDだけを共通にする。

@@ -4,6 +4,10 @@ Seeed Studio XIAO ESP32S3 Senseで写真を撮影し、OpenAIまたはGeminiに�
 
 Game Boyのオーキドとの会話を起点にリンクケーブル経由で撮影を要求し、生成された講評を最大18文字×2行のゲーム内会話として表示します。
 
+![Game Boy Pocketへ接続したGB AI Eyeの実機試作](docs/assets/gb-ai-eye-connected.jpg)
+
+写真は動作確認に使用した実機試作です。カメラ、XIAO、レベルシフタ、LiPoを通信ケーブル側へまとめています。組み立て状態の写真は[公開用ハードウェアガイド](docs/hardware.md)に掲載しています。
+
 > [!IMPORTANT]
 > 本リポジトリはROM、セーブデータ、BGB本体、APIキーを配布しません。現在のGame Boy用コードは日本版『ポケットモンスター 赤』revision 1だけを対象とします。
 
@@ -12,6 +16,7 @@ Game Boyのオーキドとの会話を起点にリンクケーブル経由で撮
 - [最初から実機表示までの手順](docs/getting-started.md)
 - [対応ROMとバイナリエディタの前提](docs/supported-rom.md)
 - [部品、配線、電源](docs/hardware.md)
+- [Fritzing配線図の作図仕様](docs/fritzing-wiring-spec.md)
 - [写真からゲーム内表示までの仕組み](docs/architecture.md)
 - [症状別トラブルシューティング](docs/troubleshooting.md)
 
